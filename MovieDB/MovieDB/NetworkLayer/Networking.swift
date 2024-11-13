@@ -19,5 +19,6 @@ extension Networking {
     try await data(from: url, delegate: nil)
   }
 }
+
 extension URLSession: Networking {}
 
