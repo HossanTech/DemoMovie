@@ -36,7 +36,7 @@ struct MovieListView: View {
   func showMovieListView() -> some View {
     List(viewModel.movieLists) { movieList in
       NavigationLink {
-       // PeopleDetailsView(people: peopleList)
+        MovieDetailsView(movie: movieList)
       }label: {
         MovieCellView(movie: movieList)
       }
