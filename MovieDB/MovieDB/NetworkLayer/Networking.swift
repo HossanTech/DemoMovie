@@ -8,13 +8,12 @@
 import Foundation
 
 protocol Networking {
-  
   func data(from url: URL, delegate: URLSessionTaskDelegate?) async throws -> (Data, URLResponse)
 }
 
 extension Networking {
   
-  // MARK: - People url Request.
+  // MARK: - Movie url Request.
   func data(form url: URL) async throws -> (Data, URLResponse) {
     try await data(from: url, delegate: nil)
   }

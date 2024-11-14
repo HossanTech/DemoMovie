@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 enum NetworkError: Error {
   case invalidURL
   case parsingError
@@ -16,7 +14,6 @@ enum NetworkError: Error {
 }
 
 // MARK: - Passing the Custom Error Message.
-
 extension NetworkError: LocalizedError {
   var errorDescription: String? {
     switch self{

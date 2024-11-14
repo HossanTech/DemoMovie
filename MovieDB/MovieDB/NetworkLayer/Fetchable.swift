@@ -8,9 +8,7 @@
 import Foundation
 
 // MARK: -  Protocol for GET Movie List.
-
 protocol Fetchable {
-  
   func get(url: URL) async throws -> Data
 }
 
