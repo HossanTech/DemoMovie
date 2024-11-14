@@ -20,9 +20,10 @@ This is the coding test to demonstrate the showcase about SwiftUI. In this codin
 
 ![Simulator Screenshot - iPhone 16 Pro - 2024-11-14 at 13 38 40](https://github.com/user-attachments/assets/91de8008-839c-460e-9567-e0bd78906d53)
 
-**Here is the screenshot when the app is different mode **
+**Here is the screenshot when the app is different mode**
+
 ![Simulator Screenshot - iPhone 16 Pro - 2024-11-14 at 13 39 21](https://github.com/user-attachments/assets/6da09f6d-2941-4cb9-8535-e6b712ad703a)
 
-**Here is the screenshot when user select any of the movie record and want to see the details of the movie **
+**Here is the screenshot when user select any of the movie record and want to see the details of the movie**
 
 ![Simulator Screenshot - iPhone 16 Pro - 2024-11-14 at 13 41 03](https://github.com/user-attachments/assets/0d0327ba-ef74-44fa-a648-14ea32352899)
