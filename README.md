@@ -1,5 +1,5 @@
-# DemoMovie
-This is the Movie DB App Documentation...
+# This is the Movie DB App Documentation...
+
 This is the coding test to demonstrate the showcase about SwiftUI. In this coding , I have used publicy available API (https://api.themoviedb.org/3/movie/top_rated?api_key=API_KEY) which contains people data with properties like Id, Name , Title etc. In this test , I have tried to cover following requirment(SOLID principles, Code Architecture, Modular, SwiftUI, Unit tests).
 
 * **Tools:** For this demo , I have used Xcode 16.0 with swift version 6.0. For this example I targeted minimum deployemnt veriosn 16.0.
@@ -14,4 +14,6 @@ This is the coding test to demonstrate the showcase about SwiftUI. In this codin
 
 * **Simplicity and Readability:** Because of the async and await and the Soild principles  the code is very easy to understand. The async and await is help to write the less code which increase the readability of the code. Also help us to write batter unit test.
 
- * **Unit testing and  UITesting:** Each of the business logic has been testing by using XCTTesting frmaework with Test Driven Development approch. The UI testing especially the app title ony recorded. 
+ * **Unit testing and  UITesting:** Each of the business logic has been testing by using XCTTesting frmaework with Test Driven Development approch. The UI testing especially the app title ony recorded.
+   
+**Here is the screenshot when the app is lunched**
