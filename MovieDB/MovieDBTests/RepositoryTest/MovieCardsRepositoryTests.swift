@@ -29,7 +29,7 @@ final class MovieCardsRepositoryTests: XCTestCase {
     
     // GIVEN
     guard let url = URL(string: "MovieData") else {
-      XCTFail("URL not found")
+      XCTFail("\(NetworkError.invalidURL)")
       return
     }
     
@@ -52,7 +52,7 @@ final class MovieCardsRepositoryTests: XCTestCase {
     
     // GIVEN
     guard let url = URL(string: "MovieDataEmpty") else {
-      XCTFail("URL not found")
+      XCTFail("\(NetworkError.invalidURL)")
       return
     }
     
