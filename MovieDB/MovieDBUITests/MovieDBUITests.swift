@@ -14,11 +14,14 @@ final class MovieDBUITests: XCTestCase {
   }
   
   func testAppTitle() throws {
-    
-    let app = XCUIApplication()
-    app.launch()
-    let appTitle = app.navigationBars["Movie List"].staticTexts["Movie List"]
-    XCTAssertTrue(appTitle.exists)
-    appTitle.tap()
+      // Initialize the app and launch it
+      let app = XCUIApplication()
+      app.launch()
+      
+      // Access the navigation bar title with identifier "Movie List"
+      let appTitle = app.navigationBars["Movie List"].staticTexts["Movie List"]
+      
+      // Assert that the app title exists
+      XCTAssertTrue(appTitle.exists, "The app title 'Movie List' should exist on the navigation bar")
   }
 }
