@@ -20,7 +20,7 @@ extension NetworkManager: Fetchable {
   // MARK: - Return Movie Url.
   func get(url: URL) async throws -> Data {
     do {
-      let (data, response) = try await urlSession.data(form: url)
+      let (data, response) = try await urlSession.data(from: url)
       // Validating HTTP response
       if  response.isValidResponse() {
         return data
