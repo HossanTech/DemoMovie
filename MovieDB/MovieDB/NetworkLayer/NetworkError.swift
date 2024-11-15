@@ -16,7 +16,7 @@ enum NetworkError: Error {
 // MARK: - Passing the Custom Error Message.
 extension NetworkError: LocalizedError {
   var errorDescription: String? {
-    switch self{
+    switch self {
     case .invalidURL:
       return NSLocalizedString("Invalid URL", comment: "invalidURL")
     case .parsingError:

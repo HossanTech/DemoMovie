@@ -21,7 +21,6 @@ struct MovieRepositoryImplementation {
 
 // MARK: - Movie Repository Implementation.
 extension MovieRepositoryImplementation: MovieCardsRepository, JsonParser {
-  // MARK: - Get Movie List request form Network Layer.
   func getMovieList(for url: URL) async throws -> MovieList {
     do {
       let listsData = try await networkManager.get(url: url)
